@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -8.52 8)
 		(end -7.27 8)
@@ -215,21 +215,10 @@
 		(uuid "cfbc9fbf-61c2-4d78-9c8f-f5b5db9ba57d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "63d8e4f1-7f63-41a5-86ac-1e65b5732bd2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 8 0)
-		(layer "F.Fab")
-		(uuid "e9e477e9-76c7-4443-952e-117cb09fd0c5")
 		(effects
 			(font
 				(size 1 1)
