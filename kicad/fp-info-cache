@@ -1,4 +1,4 @@
-25214259767763196
+25219590360017248
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2133,7 +2133,7 @@ Generic 6mm SW tactile push button
 tact sw push 6mm
 0
 4
-2
+4
 Button_Switch_THT
 SW_PUSH_6mm_H4.3mm
 tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
@@ -89838,6 +89838,13 @@ Taiyo Yuden NRF51822 Module Bluetooth
 30
 28
 RF_Module
+Untitled
+
+
+0
+3
+3
+RF_Module
 WEMOS_C3_mini
 16-pin module, column spacing 22.86 mm (900 mils), https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf
 ESP32-C3 WiFi microcontroller
@@ -101282,6 +101289,20 @@ SPI
 0
 6
 6
+footprint_radiocontorler
+a_long_button
+Generic 6mm SW tactile push button
+tact sw push 6mm
+0
+4
+4
+footprint_radiocontorler
+potentiometer_custom
+
+
+0
+3
+3
 footprint_radiocontorler
 resistor_footprint
 

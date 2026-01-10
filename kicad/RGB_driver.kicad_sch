@@ -8,6 +8,176 @@
 		(title "Radio's LED RGB controller")
 	)
 	(lib_symbols
+		(symbol "Amplifier_Operational:SPI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPI_1_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 1.27 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Operational:generic_pad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -87,7 +257,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1451,176 +1621,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SPI_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SPI_1_1_1"
-				(rectangle
-					(start -1.27 -1.27)
-					(end 1.27 -16.51)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -10.16 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -12.7 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -15.24 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push_Open_Dual"
 			(pin_names
 				(offset 1.016)
@@ -2347,6 +2347,10 @@
 		(uuid "401800aa-a3c4-4d42-b511-d840a0de062c")
 	)
 	(no_connect
+		(at 69.85 106.68)
+		(uuid "43848fbf-9d08-4712-a54f-80173e85d4c8")
+	)
+	(no_connect
 		(at 53.34 91.44)
 		(uuid "54cb94ae-7a51-4b46-9d93-98d9c50aebbd")
 	)
@@ -2361,10 +2365,6 @@
 	(no_connect
 		(at 76.2 83.82)
 		(uuid "76c6ee38-414a-4b9a-b1f2-7b54c5d14f27")
-	)
-	(no_connect
-		(at 69.85 111.76)
-		(uuid "c5945c2c-e2a3-4c7d-8745-9ee7d33db95b")
 	)
 	(wire
 		(pts
@@ -2398,13 +2398,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 106.68) (xy 67.31 106.68)
+			(xy 67.31 111.76) (xy 69.85 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c377667-972c-4e0d-8527-36a7a810e3f1")
+		(uuid "0eac827e-7680-4acf-bde1-202002b0f9f8")
 	)
 	(wire
 		(pts
@@ -2458,7 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 106.68) (xy 67.31 119.38)
+			(xy 67.31 111.76) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3618,7 +3618,7 @@
 		(dnp no)
 		(uuid "7caca6a1-9d60-4085-899e-3f5e73222906")
 		(property "Reference" "U4"
-			(at 163.322 68.58 0)
+			(at 162.814 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3660,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c32642be-4027-449f-803b-c569f39f175a")
 		)
 		(instances
@@ -4031,7 +4031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "footprint_radiocontorler:a_long_button"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 		(dnp no)
 		(uuid "d4f2a59b-3ac4-43c8-a4fa-5bca74e79889")
 		(property "Reference" "U2"
-			(at 164.846 64.77 0)
+			(at 162.814 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,11 +4673,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 158.242 60.96 0)
+			(at 159.004 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "footprint_radiocontorler:simple_generic_pad"
@@ -4707,7 +4708,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "14aa0d6a-1d29-43bc-b3be-a7ee6e3fe561")
 		)
 		(instances
@@ -4813,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "footprint_radiocontorler:a_long_button"
 			(at 74.93 101.6 0)
 			(effects
 				(font
@@ -4889,7 +4890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+		(property "Footprint" "footprint_radiocontorler:potentiometer_custom"
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -5000,7 +5001,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SPI_1")
 		(lib_id "Amplifier_Operational:SPI")
 		(at 139.7 110.49 270)
 		(unit 1)
@@ -5089,7 +5089,7 @@
 		(dnp no)
 		(uuid "f25f5127-6a0e-403c-85f7-0106bdba3ca4")
 		(property "Reference" "U5"
-			(at 158.75 71.628 0)
+			(at 162.814 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "f4f53353-a50b-47d2-a863-e83ddbc9ed2a")
 		)
 		(instances
