@@ -1,4 +1,4 @@
-25219590360017248
+25219591685355598
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101290,7 +101290,7 @@ SPI
 6
 6
 footprint_radiocontorler
-a_long_button
+a_huge_button
 Generic 6mm SW tactile push button
 tact sw push 6mm
 0

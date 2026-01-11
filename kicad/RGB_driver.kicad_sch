@@ -4031,7 +4031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint_radiocontorler:a_long_button"
+		(property "Footprint" "footprint_radiocontorler:a_huge_button"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint_radiocontorler:a_long_button"
+		(property "Footprint" "footprint_radiocontorler:a_huge_button"
 			(at 74.93 101.6 0)
 			(effects
 				(font

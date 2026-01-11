@@ -1,4 +1,4 @@
-(footprint "a_long_button"
+(footprint "a_huge_button"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "a_long_button"
+	(property "Value" "a_huge_button"
 		(at 0.5 9.3 0)
 		(layer "F.Fab")
 		(uuid "5a601e4b-56c2-40d9-8b05-295fe984fd71")
@@ -75,28 +75,8 @@
 		(uuid "37a86e3c-5a70-47e0-b1df-e0d6daf7c1ec")
 	)
 	(fp_line
-		(start -3.5 -7.9)
-		(end -2.5 -7.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "d206fe7d-f74b-43eb-9e8d-a31adde74cb6")
-	)
-	(fp_line
-		(start -3.5 7.8)
-		(end -3.5 -7.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "6919cde1-ab83-49e8-8a34-316716fe0b48")
-	)
-	(fp_line
-		(start -2.5 -7.9)
-		(end 3.4 -7.9)
+		(start -6 -7.9)
+		(end 6 -7.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105,18 +85,18 @@
 		(uuid "5c93074e-dfca-492d-affe-e972172a64f1")
 	)
 	(fp_line
-		(start 2.1 7.8)
-		(end -3.5 7.8)
+		(start -6 7.8)
+		(end -6 -7.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "8f3b60a4-62cd-4377-aefe-703dd56476f4")
+		(uuid "6919cde1-ab83-49e8-8a34-316716fe0b48")
 	)
 	(fp_line
-		(start 3.4 -7.9)
-		(end 3.4 7.8)
+		(start 6 -7.9)
+		(end 6 7.85)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -125,14 +105,14 @@
 		(uuid "45cd895c-30c0-4a3e-9e92-e54a06dc4f3d")
 	)
 	(fp_line
-		(start 3.4 7.8)
-		(end 2.1 7.8)
+		(start 6 7.85)
+		(end -6 7.8)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "68811aea-129e-4fc7-8a66-36010540d0a4")
+		(uuid "8f3b60a4-62cd-4377-aefe-703dd56476f4")
 	)
 	(fp_line
 		(start -2.4 -6.8)
@@ -237,10 +217,10 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
 		(offset
-			(xyz -2.5 -6.5 0)
+			(xyz -4.5 -6.5 0)
 		)
 		(scale
-			(xyz 2.1 1.1 1)
+			(xyz 2 2 1)
 		)
 		(rotate
 			(xyz -0 -0 -90)
