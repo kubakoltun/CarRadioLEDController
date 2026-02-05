@@ -1,7 +1,7 @@
-#define RPIN 3
-#define GPIN 5
-#define BPIN 6
-#define BUTTON_PIN 7
+#define RPIN 0
+#define GPIN 1
+#define BPIN 3
+#define BUTTON_PIN 4
 #define COLORON 0
 #define COLOROFF 255
 
@@ -18,9 +18,8 @@ enum ColorMode {
 
 ColorMode mode = BLUE;
 bool lastButtonState = HIGH;
-int potPin = A3;
+int potPin = A0; // calling the ADC0 pin
 int potVal = 0;
-int ledPin = 10;
 int ledVal = 0;
 
 void setup() {
@@ -29,8 +28,6 @@ void setup() {
     pinMode(GPIN, OUTPUT);
     pinMode(BPIN, OUTPUT);
     pinMode(BUTTON_PIN, INPUT_PULLUP);
-
-    pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
