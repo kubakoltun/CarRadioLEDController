@@ -1,7 +1,8 @@
+// ATtiny85
 #define RPIN 0
 #define GPIN 1
-#define BPIN 3
-#define BUTTON_PIN 4
+#define BPIN 4
+#define BUTTON_PIN 2
 #define COLORON 0
 #define COLOROFF 255
 
@@ -18,12 +19,11 @@ enum ColorMode {
 
 ColorMode mode = BLUE;
 bool lastButtonState = HIGH;
-int potPin = A0; // calling the ADC0 pin
+int potPin = A3; // calling the ADC3 (PB3) pin
 int potVal = 0;
 int ledVal = 0;
 
 void setup() {
-    Serial.begin(9600);
     pinMode(RPIN, OUTPUT);
     pinMode(GPIN, OUTPUT);
     pinMode(BPIN, OUTPUT);
