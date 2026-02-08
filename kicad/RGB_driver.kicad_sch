@@ -2305,6 +2305,12 @@
 		(uuid "13ffd216-1a19-4df5-8b3b-84134e203f80")
 	)
 	(junction
+		(at 107.95 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f66b17-4939-41ac-b060-e7f814c753e8")
+	)
+	(junction
 		(at 107.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2321,12 +2327,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd73748e-7553-471b-8653-df68065ad199")
-	)
-	(junction
-		(at 86.36 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdbedcc2-5609-4df4-813c-45186860a377")
 	)
 	(junction
 		(at 127 66.04)
@@ -2404,6 +2404,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 57.15) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb5d795-a8e4-46be-a1bc-f7f3f3306a9b")
+	)
+	(wire
+		(pts
 			(xy 124.46 68.58) (xy 124.46 106.68)
 		)
 		(stroke
@@ -2444,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 86.36 106.68)
+			(xy 80.01 106.68) (xy 91.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2461,16 +2471,6 @@
 			(type default)
 		)
 		(uuid "29d23692-653c-43d0-b42a-0509cabbb9dc")
-	)
-	(wire
-		(pts
-			(xy 86.36 92.71) (xy 86.36 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6d1f12-7192-42ac-9e45-74b442312012")
 	)
 	(wire
 		(pts
@@ -2494,13 +2494,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.87) (xy 86.36 106.68)
+			(xy 153.67 62.23) (xy 154.94 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36889886-a35b-4868-ba3e-c3ea9ff4143b")
+		(uuid "34b931d1-83d0-48bd-915d-8998b3147020")
 	)
 	(wire
 		(pts
@@ -2604,6 +2604,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 57.15) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9ce36a-1b21-448b-b86f-51d6145e90f1")
+	)
+	(wire
+		(pts
 			(xy 77.47 53.34) (xy 77.47 48.26)
 		)
 		(stroke
@@ -2621,6 +2631,16 @@
 			(type default)
 		)
 		(uuid "88a2cd7f-c2d4-4eed-ab70-b8b21c84a25a")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bd19c1-aedf-46c8-9576-d93b21716def")
 	)
 	(wire
 		(pts
@@ -2754,23 +2774,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 91.44 106.68)
+			(xy 107.95 53.34) (xy 107.95 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db22c1f7-5306-4d25-81a2-4adc43f56284")
-	)
-	(wire
-		(pts
-			(xy 107.95 53.34) (xy 107.95 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e303ce40-f979-4f0d-a5d9-c3f05da28ed1")
+		(uuid "dbef9190-fdd2-423e-ab29-77c2e8a2057f")
 	)
 	(wire
 		(pts
@@ -3339,76 +3349,6 @@
 			(project "RGB_driver"
 				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fd2a37f-5b2c-4cbe-b198-d18cd5a5ec2e")
-		(property "Reference" "R8"
-			(at 88.9 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 88.9 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprint_radiocontorler:resistor_footprint"
-			(at 88.138 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f99770d2-ba0f-4756-893a-d7a58ff6a427")
-		)
-		(pin "1"
-			(uuid "9a54e1ba-b0af-4918-b6da-226df130f42b")
-		)
-		(instances
-			(project "RGB_driver"
-				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4146,72 +4086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 86.36 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a701356c-5c14-413e-b016-92cb93cb33c5")
-		(property "Reference" "#PWR09"
-			(at 86.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 86.36 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c6671fc-da52-4668-8c98-2f4f7cc9bfbb")
-		)
-		(instances
-			(project "RGB_driver"
-				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 60.96 68.58 0)
 		(unit 1)
@@ -4649,6 +4523,70 @@
 			(project ""
 				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:generic_pad")
+		(at 158.75 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da495bbf-0ffd-4edd-9d9c-4ce1e2b2f831")
+		(property "Reference" "U7"
+			(at 162.814 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.242 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint_radiocontorler:simple_generic_pad"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "274b61e3-c751-4f99-a3fa-1957cf74bc84")
+		)
+		(instances
+			(project "RGB_driver"
+				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
+					(reference "U7")
 					(unit 1)
 				)
 			)
