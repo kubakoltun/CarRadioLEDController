@@ -268,6 +268,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2305,10 +2427,10 @@
 		(uuid "13ffd216-1a19-4df5-8b3b-84134e203f80")
 	)
 	(junction
-		(at 107.95 57.15)
+		(at 107.95 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83f66b17-4939-41ac-b060-e7f814c753e8")
+		(uuid "453fc0a6-cd78-494c-9e4e-253f93fd3e8e")
 	)
 	(junction
 		(at 107.95 53.34)
@@ -2404,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 107.95 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb5d795-a8e4-46be-a1bc-f7f3f3306a9b")
-	)
-	(wire
-		(pts
 			(xy 124.46 68.58) (xy 124.46 106.68)
 		)
 		(stroke
@@ -2474,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 58.42) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a63ef87-f790-46c3-bf11-bb4ceb8fa6ac")
+	)
+	(wire
+		(pts
 			(xy 67.31 111.76) (xy 67.31 114.3)
 		)
 		(stroke
@@ -2491,16 +2613,6 @@
 			(type default)
 		)
 		(uuid "345d2462-6a05-4b4b-a25c-b462881d2781")
-	)
-	(wire
-		(pts
-			(xy 153.67 62.23) (xy 154.94 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b931d1-83d0-48bd-915d-8998b3147020")
 	)
 	(wire
 		(pts
@@ -2531,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "40d6f6b7-0c2e-48c3-9f50-9e9332e4ef7b")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f3f2ef-09df-4ea4-9982-4378f3cc9668")
 	)
 	(wire
 		(pts
@@ -2604,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 153.67 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9ce36a-1b21-448b-b86f-51d6145e90f1")
-	)
-	(wire
-		(pts
 			(xy 77.47 53.34) (xy 77.47 48.26)
 		)
 		(stroke
@@ -2631,16 +2743,6 @@
 			(type default)
 		)
 		(uuid "88a2cd7f-c2d4-4eed-ab70-b8b21c84a25a")
-	)
-	(wire
-		(pts
-			(xy 153.67 57.15) (xy 153.67 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88bd19c1-aedf-46c8-9576-d93b21716def")
 	)
 	(wire
 		(pts
@@ -2771,16 +2873,6 @@
 			(type default)
 		)
 		(uuid "d7395763-5ddf-4f90-ac0a-9be545eda006")
-	)
-	(wire
-		(pts
-			(xy 107.95 53.34) (xy 107.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbef9190-fdd2-423e-ab29-77c2e8a2057f")
 	)
 	(wire
 		(pts
@@ -4265,6 +4357,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 162.56 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ebd7fd-9ccb-4b90-b7ec-53f0b2b93d32")
+		(property "Reference" "J1"
+			(at 161.925 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 161.925 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint_radiocontorler:simple_generic_pad"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7beca28-4564-4577-bb3a-4fbf6384a679")
+		)
+		(instances
+			(project ""
+				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 149.86 66.04 270)
 		(unit 1)
@@ -4523,70 +4680,6 @@
 			(project ""
 				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:generic_pad")
-		(at 158.75 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da495bbf-0ffd-4edd-9d9c-4ce1e2b2f831")
-		(property "Reference" "U7"
-			(at 162.814 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 158.242 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint_radiocontorler:simple_generic_pad"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "274b61e3-c751-4f99-a3fa-1957cf74bc84")
-		)
-		(instances
-			(project "RGB_driver"
-				(path "/1ccb5a9c-254c-4919-974f-8891fcdc32e1"
-					(reference "U7")
 					(unit 1)
 				)
 			)

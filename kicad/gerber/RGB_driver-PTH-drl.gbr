@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
-%TF.CreationDate,2026-02-08T12:23:38+01:00*%
+%TF.CreationDate,2026-02-09T18:18:44+01:00*%
 %TF.ProjectId,RGB_driver,5247425f-6472-4697-9665-722e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Plated,1,2,PTH,Mixed*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.1) date 2026-02-08 12:23:38*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2026-02-09 18:18:44*
 %MOMM*%
 %LPD*%
 G01*
@@ -93,8 +93,8 @@ X155210000Y-61690000D03*
 X155210000Y-66970000D03*
 %TO.C,U5*%
 X155250000Y-56050000D03*
-%TO.C,U7*%
-X155350000Y-72570000D03*
+%TO.C,J1*%
+X155320000Y-72290000D03*
 D14*
 %TO.C,SW4*%
 X101340000Y-63570000D03*
